@@ -1,0 +1,33 @@
+// header
+ header {
+
+   text-transform: uppercase;
+   position: fixed;
+   top: 0;
+   width: 100%;
+
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+
+  .navbar-light .navbar-nav .nav-link {
+      color: #1b3c59;
+    }
+
+
+    .ms_button {
+      max-height: 40px;
+      background: #61ce4e;
+      margin: 0 0 0 40px;
+      padding: 0 20px;
+      border-radius: 5px;
+      text-transform: uppercase;
+      }
+
+      img {
+        width: 50%;
+      }
+    }
+   }
+
+// ends header
