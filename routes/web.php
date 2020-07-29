@@ -24,3 +24,7 @@ Route::get('/corso/full-time', function () {
 Route::get('/carriere', function () {
     return view('dopoIlCorso');
 })->name('sezione-dopoILcorso');
+
+Route::get('/privacy-policy', function () {
+    return view('privacy-policy');
+})->name('sezione-Ppolicy');

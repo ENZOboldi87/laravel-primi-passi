@@ -3,14 +3,14 @@
   Il corso per diventare web developer e trovare un nuovo lavoro
 @endsection
 @section('content')
-  <section class="jumbotron bg-white">
+  <section class="ms_jumbotron bg-white text-blue">
     <div class="container">
     <div class="row">
       <div class="col-lg-6">
-        <h1>DIVENTA
+        <h1 class="titolo-principale">DIVENTA
           <strong>SVILUPPATORE WEB</strong>
         </h1>
-        <p>Trasformiamo la tua passione in una carriera. Se non trovi lavoro, ti rimborsiamo.</p>
+        <p class="sottoTitolo-principale">Trasformiamo la tua passione in una carriera. Se non trovi lavoro, ti rimborsiamo.</p>
         <ul>
           <li> <strong>6 mesi</strong> di corso intensivo online in diretta </li>
           <li><strong>nessuna competenza</strong> di programmazione richiesta</li>
@@ -25,7 +25,7 @@
     </div>
     </div>
   </section>
-  <section class="under-jumbo">
+  <section class="under-jumbo blue-bg text-white">
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
@@ -55,6 +55,4 @@
       </div>
     </div>
   </section>
-
-
 @endsection
