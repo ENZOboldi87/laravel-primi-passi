@@ -1,8 +1,8 @@
 @extends('layouts.layouts')
 @section('title')
-  Il corso per diventare web developer e trovare un nuovo lavoro
+  Dopo il corso, carriere lavorative
 @endsection
 @section('content')
-  <h1>questo e un contenuto aggiunto con prova  </h1>
+  <h1>questo e il conenuto della sezione "dopo il corso"  </h1>
 
 @endsection

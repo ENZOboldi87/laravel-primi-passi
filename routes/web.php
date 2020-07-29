@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('home');
 })->name('home');
 
-Route::get('/corso', function () {
+Route::get('/corso/full-time', function () {
     return view('corso');
 })->name('sezione-corso');
+
+Route::get('/carriere', function () {
+    return view('dopoIlCorso');
+})->name('sezione-dopoILcorso');

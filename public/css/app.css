@@ -12,6 +12,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 9999;
 }
 
 header .container-fluid,
@@ -28,7 +29,7 @@ header .container-xl .navbar-light .navbar-nav .nav-link,
 header .container-lg .navbar-light .navbar-nav .nav-link,
 header .container-md .navbar-light .navbar-nav .nav-link,
 header .container-sm .navbar-light .navbar-nav .nav-link {
-  color: #1b3c59;
+  color: #1b3b59;
 }
 
 header .container-fluid .ms_button,
@@ -50,6 +51,14 @@ header .container-lg img,
 header .container-md img,
 header .container-sm img {
   width: 50%;
+}
+
+main {
+  margin-top: 100px;
+}
+
+main .under-jumbo {
+  background-color: #1b3b59;
 }
 
 /*!
