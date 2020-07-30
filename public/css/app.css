@@ -145,7 +145,25 @@ main .ms_jumbotron_corso .background-image img {
 }
 
 main .faq-content {
-  padding: 20px;
+  padding: 50px;
+}
+
+main .faq-content .faq_question {
+  padding: 20px 0;
+}
+
+main .faq-content h4 {
+  font-size: 20px;
+}
+
+main .faq-content h4 #icon {
+  float: right;
+  cursor: pointer;
+}
+
+main .faq-content .answer {
+  display: none;
+  font-size: 10px;
 }
 
 /*!

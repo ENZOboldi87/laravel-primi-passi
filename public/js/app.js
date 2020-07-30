@@ -37286,9 +37286,9 @@ var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js"
 
 var answer = $('.answer');
 $(document).ready(function () {
-  answer.hide();
-  $(".fa-plus").on("toggleClass", function () {
-    answer.show();
+  $(document).on('click', '.faq_question', function () {
+    $(this).find("#icon").toggleClass("fa-minus");
+    $(this).find('.answer').toggleClass('d-block');
   });
 });
 
