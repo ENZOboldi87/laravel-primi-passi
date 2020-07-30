@@ -144,6 +144,10 @@ main .ms_jumbotron_corso .background-image img {
   position: relative;
 }
 
+main .faq-content {
+  padding: 20px;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

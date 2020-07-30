@@ -29,7 +29,11 @@
   top: 0;
 }
 
-@mixin myActiveClass {
-  
+@mixin myHeaderDfixed {
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
 
 }

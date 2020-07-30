@@ -28,3 +28,17 @@ Route::get('/carriere', function () {
 Route::get('/privacy-policy', function () {
     return view('privacy-policy');
 })->name('sezione-Ppolicy');
+
+Route::get('/faq', function () {
+
+  $faqsLeft = config('faq.faq-list-left');
+  $faqsRight = config('faq.faq-list-right');
+
+
+
+    return view('faq', [
+      'faqs_list_left' => $faqsLeft,
+      'faqs_list_right' => $faqsRight
+
+    ]);
+})->name('faq');

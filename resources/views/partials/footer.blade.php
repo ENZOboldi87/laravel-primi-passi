@@ -14,7 +14,7 @@
           <div class="content-right">
             <ul class="list-unstyled">
               <li> <a href="#">Lezione gratuita</a> </li>
-              <li> <a href="#">Domande Frequenti</a> </li>
+              <li> <a href="{{route('faq')}}">Domande Frequenti</a> </li>
               <li> <a href="{{route('sezione-Ppolicy')}}">Privacy policy</a> </li>
               <li> <a href="">Lavora con noi</a> </li>
             </ul>

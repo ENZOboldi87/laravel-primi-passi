@@ -1,10 +1,6 @@
 // header
  header {
-   text-transform: uppercase;
-   position: fixed;
-   top: 0;
-   width: 100%;
-   z-index: 9999;
+   @include myHeaderDfixed;
 
   .container-fluid {
     padding-left: 0;
