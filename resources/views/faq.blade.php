@@ -21,7 +21,7 @@
         <div class="faq-content text-blue">
           <h3>Prima del corso</h3>
           @foreach ($faqs_list_left as $faq)
-          <div class="faq_question">
+          <div class="faq_question left">
               <h4>{{ $faq['question']}}
                 <i id="icon" class="fas fa-plus"></i>
               </h4>
@@ -34,7 +34,7 @@
         <div class="faq-content text-white">
           <h3>Dopo il corso</h3>
           @foreach ($faqs_list_right as $faq)
-          <div class="faq_question">
+          <div class="faq_question right">
               <h4>{{ $faq['question-right']}}
                 <i id="icon" class="fas fa-plus"></i>
               </h4>

@@ -58,7 +58,11 @@ main {
 
     .answer {
       display: none;
-      font-size: 10px;
+      font-size: 20px;
+    }
+
+    .selected {
+      display: block;
     }
 
 

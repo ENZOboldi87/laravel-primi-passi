@@ -163,7 +163,11 @@ main .faq-content h4 #icon {
 
 main .faq-content .answer {
   display: none;
-  font-size: 10px;
+  font-size: 20px;
+}
+
+main .faq-content .selected {
+  display: block;
 }
 
 /*!
