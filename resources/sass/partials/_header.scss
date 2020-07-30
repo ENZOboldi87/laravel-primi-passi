@@ -1,6 +1,5 @@
 // header
  header {
-
    text-transform: uppercase;
    position: fixed;
    top: 0;
@@ -15,6 +14,15 @@
       color: $primaryCompanyColor;
     }
 
+    .nav-item {
+      margin: 0 12px;
+      height: 100%;
+      font-size: 14px;
+    }
+
+    .active, .nav-item:hover {
+      border-bottom: 2px solid $thirdCompanyColor;
+    }
 
     .ms_button {
       @include myButton;

@@ -53,6 +53,29 @@ header .container-sm .navbar-light .navbar-nav .nav-link {
   color: #1b3b59;
 }
 
+header .container-fluid .nav-item,
+header .container-xl .nav-item,
+header .container-lg .nav-item,
+header .container-md .nav-item,
+header .container-sm .nav-item {
+  margin: 0 12px;
+  height: 100%;
+  font-size: 14px;
+}
+
+header .container-fluid .active,
+header .container-xl .active,
+header .container-lg .active,
+header .container-md .active,
+header .container-sm .active,
+header .container-fluid .nav-item:hover,
+header .container-xl .nav-item:hover,
+header .container-lg .nav-item:hover,
+header .container-md .nav-item:hover,
+header .container-sm .nav-item:hover {
+  border-bottom: 2px solid #61ce4e;
+}
+
 header .container-fluid .ms_button,
 header .container-xl .ms_button,
 header .container-lg .ms_button,
@@ -78,6 +101,14 @@ main {
   margin-top: 100px;
 }
 
+main .ms_jumbotron {
+  padding: 50px 0;
+}
+
+main .ms_jumbotron img {
+  width: 100%;
+}
+
 main .filtro {
   width: 100%;
   height: 100%;
@@ -88,6 +119,10 @@ main .filtro {
 
 main .under-jumbo {
   padding: 50px 0;
+}
+
+main .under-jumbo .data {
+  padding: 0 60px;
 }
 
 main .ms_jumbotron_corso {
