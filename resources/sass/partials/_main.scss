@@ -1,14 +1,6 @@
 main {
   margin-top: 100px;
 
-  .ms_jumbotron {
-    padding: 50px 0;
-
-    img {
-      width: 100%;
-    }
-  }
-
   .filtro {
     @include myFiltro;
   }
@@ -41,9 +33,25 @@ main {
       z-index: -1;
 
       img {
-        width: 100%;
         top: -100px;
         position: relative;
+      }
+    }
+  }
+
+  .clients {
+
+    color: #8e8e8e;
+
+    .companies {
+
+      .image-company {
+        flex-basis: calc(100% / 3);
+
+
+        img {
+          width: 70%;
+        }
       }
     }
   }
@@ -72,9 +80,32 @@ main {
     .selected {
       display: block;
     }
+  }
 
+  .ads-grey, .ads-blue, .school-gif-section {
 
+    .content {
 
+      h3 {
+        font-size: 40px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      ul {
+        padding: 10px 20px;
+        font-size: 18px
+      }
+
+      ul li {
+        padding: 10px;
+      }
+
+    }
 
   }
+
+
 }

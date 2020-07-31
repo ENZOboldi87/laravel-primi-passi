@@ -12,8 +12,16 @@ body a {
   color: inherit;
 }
 
+body img {
+  width: 100%;
+}
+
 .blue-bg {
   background-color: #1b3b59;
+}
+
+.grey-bg {
+  background-color: #e8ecf1;
 }
 
 .text-blue {
@@ -31,6 +39,14 @@ body a {
   font-size: 22px;
   line-height: 1.2;
   font-weight: 400;
+}
+
+.padding80 {
+  padding: 80px 0;
+}
+
+.thumbnail {
+  width: 20%;
 }
 
 header {
@@ -114,14 +130,6 @@ main {
   margin-top: 100px;
 }
 
-main .ms_jumbotron {
-  padding: 50px 0;
-}
-
-main .ms_jumbotron img {
-  width: 100%;
-}
-
 main .filtro {
   width: 100%;
   height: 100%;
@@ -160,9 +168,20 @@ main .ms_jumbotron_corso .background-image {
 }
 
 main .ms_jumbotron_corso .background-image img {
-  width: 100%;
   top: -100px;
   position: relative;
+}
+
+main .clients {
+  color: #8e8e8e;
+}
+
+main .clients .companies .image-company {
+  flex-basis: calc(100% / 3);
+}
+
+main .clients .companies .image-company img {
+  width: 70%;
 }
 
 main .faq-content {
@@ -189,6 +208,31 @@ main .faq-content .answer {
 
 main .faq-content .selected {
   display: block;
+}
+
+main .ads-grey .content h3,
+main .ads-blue .content h3,
+main .school-gif-section .content h3 {
+  font-size: 40px;
+}
+
+main .ads-grey .content p,
+main .ads-blue .content p,
+main .school-gif-section .content p {
+  font-size: 20px;
+}
+
+main .ads-grey .content ul,
+main .ads-blue .content ul,
+main .school-gif-section .content ul {
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+main .ads-grey .content ul li,
+main .ads-blue .content ul li,
+main .school-gif-section .content ul li {
+  padding: 10px;
 }
 
 footer .footer-content-up {

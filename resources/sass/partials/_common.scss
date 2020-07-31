@@ -13,10 +13,18 @@ body {
     text-decoration: none;
     color: inherit;
   }
+
+  img {
+    width: 100%;
+  }
 }
 
 .blue-bg {
   background-color: $primaryCompanyColor;
+}
+
+.grey-bg {
+  background-color: $bgGreyColor;
 }
 
 .text-blue {
@@ -29,6 +37,14 @@ body {
 
 .sottoTitolo-principale {
   @include sottoTitolo-principale;
+}
+
+.padding80 {
+  padding: 80px 0;
+}
+
+.thumbnail {
+  width: 20%;
 }
 
 // ends general rules
