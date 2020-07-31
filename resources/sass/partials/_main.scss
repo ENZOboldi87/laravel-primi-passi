@@ -5,6 +5,13 @@ main {
     @include myFiltro;
   }
 
+  .ms_jumbotron {
+
+    ul {
+      margin: 0 20px;
+    }
+  }
+
   .under-jumbo {
     padding: 50px 0;
 
@@ -105,6 +112,25 @@ main {
 
     }
 
+  }
+
+  .ads-grey-details {
+
+    .ms_button_ads {
+      @include myButtonAds;
+
+    }
+  }
+
+  .why-boolean {
+
+    .content {
+      padding: 35px;
+
+      h4 {
+        margin-bottom: 1rem;
+      }
+    }
   }
 
 

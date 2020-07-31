@@ -24,6 +24,10 @@ body img {
   background-color: #e8ecf1;
 }
 
+.green-bg {
+  background-color: #61ce4e;
+}
+
 .text-blue {
   color: #1b3b59;
 }
@@ -45,8 +49,17 @@ body img {
   padding: 80px 0;
 }
 
+.padding40 {
+  padding: 40px 0;
+}
+
 .thumbnail {
-  width: 20%;
+  width: 30%;
+  padding: 15px;
+}
+
+.title-section {
+  font-size: 50px;
 }
 
 header {
@@ -136,6 +149,10 @@ main .filtro {
   background-color: rgba(27, 60, 89, 0.8);
   position: absolute;
   top: 0;
+}
+
+main .ms_jumbotron ul {
+  margin: 0 20px;
 }
 
 main .under-jumbo {
@@ -233,6 +250,23 @@ main .ads-grey .content ul li,
 main .ads-blue .content ul li,
 main .school-gif-section .content ul li {
   padding: 10px;
+}
+
+main .ads-grey-details .ms_button_ads {
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  width: 250px;
+  margin: 30px 30px 0;
+  font-size: 20px;
+}
+
+main .why-boolean .content {
+  padding: 35px;
+}
+
+main .why-boolean .content h4 {
+  margin-bottom: 1rem;
 }
 
 footer .footer-content-up {

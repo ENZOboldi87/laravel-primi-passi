@@ -10,11 +10,19 @@
         <h1 class="titolo-principale">DIVENTA
           <strong>SVILUPPATORE WEB</strong>
         </h1>
-        <p class="sottoTitolo-principale">Trasformiamo la tua passione in una carriera. Se non trovi lavoro, ti rimborsiamo.</p>
+        <p class="sottoTitolo-principale">Trasformiamo la tua passione in una
+          carriera. Se non trovi lavoro, ti rimborsiamo.
+        </p>
         <ul>
-          <li> <strong>6 mesi</strong> di corso intensivo online in diretta </li>
-          <li><strong>nessuna competenza</strong> di programmazione richiesta</li>
-          <li>Siamo certi del tuo successo, altrimenti <strong>ti rimborsiamo</strong> </li>
+          <li> <strong>6 mesi</strong> di corso intensivo
+            online in diretta
+          </li>
+          <li><strong>nessuna competenza</strong> di
+            programmazione richiesta
+          </li>
+          <li>Siamo certi del tuo successo, altrimenti
+            <strong>ti rimborsiamo</strong>
+          </li>
         </ul>
       </div>
       <div class="col-lg-6">
@@ -31,14 +39,14 @@
         <div class="col-lg-4">
           <div class="data text-center">
             <h3>98%</h3>
-            <p>La percentuale dei nostri studenti che ora lavora come web developer,
-              oltre la metà a tempo indeterminato.
+            <p>La percentuale dei nostri studenti che ora lavora
+              come web developer, oltre la metà a tempo indeterminato.
             </p>
           </div>
         </div>
         <div class="col-lg-4">
           <div class="data text-center">
-            <h3>23.000</h3>
+            <h3>€ 23.000</h3>
             <p>Lo stipendio medio lordo di partenza
                degli studenti assunti dalle nostre aziende partner.
             </p>
@@ -62,7 +70,7 @@
           <h5>I nostri studenti sono stati assunti da:</h5>
         </div>
       </div>
-      <div class="companies d-flex align-items-center">
+      <div class="companies mb-4 d-flex align-items-center">
         <div class="image-company">
           <img src="{{asset('img/facileit.png')}}" alt="facileit-image">
         </div>
@@ -73,7 +81,7 @@
           <img src="{{asset('img/prima.png')}}" alt="prima-image">
         </div>
       </div>
-      <div class="companies d-flex justify-content-end text-right">
+      <div class="companies mb-4 d-flex justify-content-end text-right">
         <div class="image-company">
           <img src="{{asset('img/fabbrica-digitale-big.png')}}" alt="fabbricaDigitale-image">
         </div>
@@ -167,7 +175,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h3>Perche Boolean?</h3>
+          <h3 class="title-section">Perche Boolean?</h3>
         </div>
       </div>
       <div class="row">
@@ -182,21 +190,30 @@
           <div class="content">
             <img class="thumbnail" src="{{asset('img/home.svg')}}" alt="home-img">
             <h4>Impara da casa tua</h4>
-            <p>8 studenti su 10 trovano che le lezioni in aula virtuale siano migliori rispetto alle lezioni tradizionali in classe.</p>
+            <p>8 studenti su 10 trovano che le lezioni in
+              <strong>aula virtuale</strong> siano migliori rispetto alle
+              lezioni tradizionali in classe.
+            </p>
           </div>
         </div>
         <div class="col">
           <div class="content">
             <img class="thumbnail" src="{{asset('img/pen.svg')}}" alt="pen-img">
             <h4>Corso pratico e interattivo</h4>
-            <p>Più del 40% del tuo tempo è dedicato a esercitazioni e a case study. Intervieni in diretta e fai domande quando vuoi.</p>
+            <p>Più del 40% del tuo tempo è dedicato a
+              <strong>esercitazioni</strong> e a case study. Intervieni in
+              diretta e fai domande quando vuoi.
+            </p>
           </div>
         </div>
         <div class="col">
           <div class="content">
             <img class="thumbnail" src="{{asset('img/chat.svg')}}" alt="chat-img">
             <h4>Esercitazione assistita</h4>
-            <p>Per ogni tuo dubbio, in aula virtuale c’è sempre un tutor pronto a darti una mano e a incoraggiarti.</p>
+            <p>Per ogni tuo dubbio, in aula virtuale c’è sempre un
+              <strong>tutor</strong> pronto a darti una mano e a
+              incoraggiarti.
+            </p>
           </div>
         </div>
       </div>
@@ -205,31 +222,40 @@
           <div class="content">
             <img class="thumbnail" src="{{asset('img/bag.svg')}}" alt="bag-img">
             <h4>Colloqui garantiti</h4>
-            <p>Ti presentiamo alle nostre aziende partner e se entro 6 mesi non trovi lavoro, puoi usufruire della garanzia Money Back</p>
+            <p>Ti presentiamo alle nostre aziende partner e se
+              entro 6 mesi non trovi lavoro, puoi usufruire della
+              <strong>garanzia Money Back</strong>
+            </p>
           </div>
         </div>
         <div class="col">
           <div class="content">
             <img class="thumbnail" src="{{asset('img/code.svg')}}" alt="code-img">
             <h4>Rivedi le lezioni</h4>
-            <p>Sei stato assente o non hai capito? Niente paura, hai a disposizione le registrazioni di ogni lezione.</p>
+            <p>Sei stato assente o non hai capito? Niente paura,
+              hai a disposizione le <strong>registrazioni</strong>
+              di ogni lezione.
+            </p>
           </div>
         </div>
         <div class="col">
           <div class="content">
             <img class="thumbnail" src="{{asset('img/light.svg')}}" alt="light-img">
             <h4>Un'esperienza condivisa</h4>
-            <p>Segui il corso insieme a ragazzi con la tua stessa motivazione e la tua stessa determinazione. Insieme si va lontano.</p>
+            <p>Segui il corso insieme a ragazzi con la tua stessa motivazione
+              e la tua stessa determinazione. <strong>Insieme</strong> si va
+              lontano.
+            </p>
           </div>
         </div>
       </div>
     </div>
   </section>
   <section class="ads-career-grey grey-bg text-blue padding80 text-center">
-    <div class="container">
+    <div class="container mb-5">
       <div class="row">
         <div class="col-lg-12">
-          <h2>Dai una svolta alla tua carriera</h2>
+          <h2 class="title-section">Dai una svolta alla tua carriera</h2>
         </div>
       </div>
       <div class="row">
@@ -238,19 +264,28 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container mb-5">
       <div class="row">
         <div class="col-lg-6">
           <div class="image-logo">
-            <img src="{{asset('img/boolflix.png')}}" alt="boolflix-image">
+            <p><a href="https://www.boolean.careers?wvideo=j3jh4v72xl">
+              <img src="https://embedwistia-a.akamaihd.net/deliveries/0373389e7da86460dc82d333dbf9450eec4e1c5a.jpg?image_play_button_size=2x&amp;image_crop_resized=640x360&amp;image_play_button=1&amp;image_play_button_color=f47637e0"
+              width="400" height="225" style="width: 500px; height: 325px;">
+            </a></p><p><a href="https://www.boolean.careers?wvideo=j3jh4v72xl">
+              </a></p>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="content text-right">
             <h3>Il mio lavoro dopo Boolean</h3>
-            <p>Partendo da zero, in due settimane ho costruito il mio primo sito! Sono molto soddisfatto di aver scelto questo corso: l'impressione che si ha è quella di entrare in una classe vera e propria. Un corso innovativo che mi ha stupito”.
+            <p>Partendo da zero, in due settimane ho costruito il mio
+              primo sito! Sono molto soddisfatto di aver scelto questo
+              corso: l'impressione che si ha è quella di entrare in una
+              classe vera e propria. Un corso innovativo che mi ha stupito”.
             </p>
-            <p>Alessandro Biagini - Studente Boolean assunto da DISC SPA come web developer</p>
+            <p> <strong>Alessandro Biagini</strong> - Studente Boolean
+              assunto da DISC SPA come web developer
+            </p>
           </div>
         </div>
       </div>
@@ -258,16 +293,67 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <div class="content">
+          <div class="content text-left">
             <h3>Un network di aziende di livello</h3>
-            <p>"La richiesta di web developer da parte delle aziende è molto alta. I pochi professionisti sul mercato vengono contattati quotidianamente da aziende potenzialmente interessate ad assumerli. La laurea non è un requisito fondamentale per questa professione: lo sono la voglia di formarsi e di crescere professionalmente".
+            <p>"La richiesta di web developer da parte delle aziende
+              è molto alta. I pochi professionisti sul mercato vengono
+              contattati quotidianamente da aziende potenzialmente
+              interessate ad assumerli. La laurea non è un requisito
+              fondamentale per questa professione: lo sono la voglia di
+              formarsi e di crescere professionalmente".
             </p>
-            <p>Stefania Gardini - HR Talent Acquisition in Facile.it</p>
+            <p> <strong>Stefania Gardini</strong> - HR Talent Acquisition
+              in Facile.it
+            </p>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="image-logo">
             <img src="{{asset('img/career-2.png')}}" alt="career-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="ads-about-us blue-bg padding40 text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>Parlano di noi</p>
+        </div>
+      </div>
+      <div class="companies d-flex align-items-center">
+        <div class="image-company">
+          <img src="{{asset('img/corriere-della-sera.png')}}" alt="corriere-della-sera-image">
+        </div>
+        <div class="image-company">
+          <img src="{{asset('img/la-repubblica.png')}}" alt="la-repubblica-image">
+        </div>
+        <div class="image-company">
+          <img src="{{asset('img/linkiesta.png')}}" alt="linkiesta-image">
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <section class="ads-grey-details grey-bg text-blue padding80 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="title-section">A un passo dalla tua nuova professione</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="button-content">
+            <ul class="list-unstyled d-flex justify-content-center">
+              <li class="ms_button_ads green-bg text-white text-nowrap">
+                <a href="#">Scopri il corso</a>
+              </li>
+              <li class="ms_button_ads blue-bg text-white text-nowrap">
+                <a href="#">Guarda una lezione</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
