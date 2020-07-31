@@ -1,0 +1,32 @@
+footer {
+
+  .footer-content-up {
+
+    padding: 45px 0 20px;
+    border-bottom: 1px solid white;
+
+    .content-left {
+
+      .logo {
+
+        img {
+          width: 50%;
+        }
+      }
+    }
+
+    .content-right {
+      align-self: flex-end;
+    }
+  }
+
+  .social {
+    .social-list li {
+      padding: 20px;
+
+      i {
+        font-size: 40px;
+      }
+    }
+  }
+}

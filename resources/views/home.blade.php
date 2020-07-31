@@ -29,7 +29,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
-          <div class="data left text-center">
+          <div class="data text-center">
             <h3>98%</h3>
             <p>La percentuale dei nostri studenti che ora lavora come web developer,
               oltre la metà a tempo indeterminato.
@@ -37,7 +37,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="data center text-center">
+          <div class="data text-center">
             <h3>23.000</h3>
             <p>Lo stipendio medio lordo di partenza
                degli studenti assunti dalle nostre aziende partner.
@@ -45,7 +45,7 @@
           </div>
         </div>
         <div class="col-lg-4">
-          <div class="data right text-center">
+          <div class="data text-center">
             <h3>#1</h3>
             <p>Siamo il primo istituto online in Italia per
               indice di gradimento e risultati conseguiti.

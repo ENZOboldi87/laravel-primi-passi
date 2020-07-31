@@ -7,6 +7,11 @@
   font-family: "Lato", sans-serif;
 }
 
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .blue-bg {
   background-color: #1b3b59;
 }
@@ -51,6 +56,14 @@ header .container-lg .navbar-light .navbar-nav .nav-link,
 header .container-md .navbar-light .navbar-nav .nav-link,
 header .container-sm .navbar-light .navbar-nav .nav-link {
   color: #1b3b59;
+}
+
+header .container-fluid .ms_navbar,
+header .container-xl .ms_navbar,
+header .container-lg .ms_navbar,
+header .container-md .ms_navbar,
+header .container-sm .ms_navbar {
+  flex-direction: row-reverse;
 }
 
 header .container-fluid .nav-item,
@@ -125,6 +138,14 @@ main .under-jumbo .data {
   padding: 0 60px;
 }
 
+main .under-jumbo .data h3 {
+  font-size: 50px;
+}
+
+main .under-jumbo .data p {
+  font-size: 20px;
+}
+
 main .ms_jumbotron_corso {
   position: relative;
   padding: 130px 0;
@@ -168,6 +189,27 @@ main .faq-content .answer {
 
 main .faq-content .selected {
   display: block;
+}
+
+footer .footer-content-up {
+  padding: 45px 0 20px;
+  border-bottom: 1px solid white;
+}
+
+footer .footer-content-up .content-left .logo img {
+  width: 50%;
+}
+
+footer .footer-content-up .content-right {
+  align-self: flex-end;
+}
+
+footer .social .social-list li {
+  padding: 20px;
+}
+
+footer .social .social-list li i {
+  font-size: 40px;
 }
 
 /*!
