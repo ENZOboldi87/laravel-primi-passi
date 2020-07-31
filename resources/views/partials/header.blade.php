@@ -19,7 +19,7 @@
             <a class="nav-link" href="{{route('sezione-dopoILcorso')}}">Dopo il corso</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">lezione gratuita</a>
+            <a class="nav-link" href="{{route('sezione-lezioneGratuita')}}">lezione gratuita</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">assumi i nostri studenti</a>

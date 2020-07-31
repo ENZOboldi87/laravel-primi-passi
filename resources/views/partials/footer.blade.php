@@ -13,7 +13,7 @@
 
       </div>
       <div class="content-right">
-        <ul class="list-unstyled text-right">
+        <ul class="list-unstyled mb-0 text-right">
           <li> <a href="#">Lezione gratuita</a> </li>
           <li> <a href="{{route('faq')}}">Domande Frequenti</a> </li>
           <li> <a href="{{route('sezione-Ppolicy')}}">Privacy policy</a> </li>
