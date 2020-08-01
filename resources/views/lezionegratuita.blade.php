@@ -3,8 +3,14 @@
   Il corso per diventare web developer e trovare un nuovo lavoro
 @endsection
 @section('content')
-  <section class="interactive-video bg-white">
-
+  <section class="interactive-video bg-white text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="video-lesson">
+          </div>
+      </div>
+    </div>
   </section>
   <section class="why-boolean bg-white text-blue padding80 text-center">
     <div class="container">

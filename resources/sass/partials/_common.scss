@@ -17,6 +17,11 @@ body {
   img {
     width: 100%;
   }
+
+  .ms_button_ads {
+    @include myButtonAds;
+
+  }
 }
 
 .blue-bg {

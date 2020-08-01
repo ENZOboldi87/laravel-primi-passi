@@ -33,6 +33,15 @@ main {
     padding: 130px 0;
     height: 650px;
 
+    .content-corso {
+      width: 61%;
+      margin: auto;
+
+      .titolo-principale {
+        font-size: 70px;
+      }
+    }
+
     .background-image {
       position: absolute;
       top: 0;
@@ -50,6 +59,16 @@ main {
   .clients {
 
     color: #8e8e8e;
+
+    .button {
+      .ms_button_ads {
+        @include myButtonAds;
+        font-size: 16px;
+        margin: 0;
+        margin: 30px 30px;
+        width: 300px;
+      }
+    }
 
     .companies {
 
@@ -113,13 +132,15 @@ main {
 
     }
 
-  }
+    .timing-lesson {
+      @include myBoxTimingLesson;
 
-  .ads-grey-details {
-
-    .ms_button_ads {
-      @include myButtonAds;
-
+      img {
+        height: 40px;
+        margin: 0px 40px 0 0px;
+        display: block;
+        width: 65px;
+      }
     }
   }
 

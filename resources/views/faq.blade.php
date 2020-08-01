@@ -22,7 +22,7 @@
           <h3>Prima del corso</h3>
           @foreach ($faqs_list_left as $faq)
           <div class="faq_question left">
-              <h4>{{ $faq['question']}}
+              <h4 data-toggle="collapse">{{ $faq['question']}}
                 <i id="icon" class="fas fa-plus"></i>
               </h4>
               <p class="answer">{{$faq['answer']}}</p>
