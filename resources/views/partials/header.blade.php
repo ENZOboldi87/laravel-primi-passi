@@ -9,19 +9,19 @@
       </button>
       <div class="collapse navbar-collapse ms_navbar" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item {{ Request::is('home') ? 'active' : '' }}">
             <a class="nav-link" href="{{route('home')}}">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item {{ Request::is('corso/full-time') ? 'active' : '' }}">
             <a class="nav-link" href="{{route('sezione-corso')}}">Corso</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item {{ Request::is('carriere') ? 'active' : '' }}">
             <a class="nav-link" href="{{route('sezione-dopoILcorso')}}">Dopo il corso</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item {{ Request::is('lezione-gratuita') ? 'active' : '' }} ">
             <a class="nav-link" href="{{route('sezione-lezioneGratuita')}}">lezione gratuita</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item {{ Request::is('') ? 'active' : '' }} ">
             <a class="nav-link" href="#">assumi i nostri studenti</a>
           </li>
           <li class="nav-item ms_button">
